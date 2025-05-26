@@ -12,19 +12,16 @@ Supercharge your Unity Inspector and serialization with new attributes, native s
 
 ## ✨ Key Features
 - **Official Omni Networking Integration**  
-  Optimized workflow for multiplayer and networked projects.
+  Optimized workflow for multiplayer and networked projects with Omni.
 
 - **Bug Fixes & Stability Improvements**  
-  Enhanced compatibility for Unity 2022+ and modern .NET versions.
+  Enhanced compatibility for Unity 2021+ and modern .NET versions.
 
 - **New Inspector Attributes**  
   Exclusive attributes for network data and observable collections.
 
 - **Serializable ObservableDictionary**  
   Full support for observable dictionaries with serialization and runtime change events.
-
-- **Legacy Project Compatible**  
-  Can replace Tri-Inspector in existing projects without rework.
 
 ---
 
