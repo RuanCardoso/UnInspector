@@ -1,26 +1,42 @@
-# Omni Inspector (Fork of Tri-Inspector)
+# UnInspector for Omni Networking
 
-A powerful, extensible Inspector drawer and serialization toolkit for Unity, **updated and improved for Omni Networking projects**.
+A modern, extensible Inspector and serialization toolkit for Unity — **official fork of Tri-Inspector, mantido e evoluído para o ecossistema Omni Networking**.
+
+---
 
 ## 🚀 Overview
 
-Omni Inspector is a maintained and enhanced fork of [Tri-Inspector](https://github.com/codewriter-packages/Tri-Inspector), tailored for Unity developers working with the [Omni Networking](https://github.com/seu-omni-networking-link) framework. It brings advanced Inspector customization, serialization support, and editor scripting—now with extra features, bugfixes, and better support for modern Unity workflows.
+**UnInspector** é um fork avançado do [Tri-Inspector](https://github.com/codewriter-packages/Tri-Inspector), atualizado especialmente para uso com o framework [Omni Networking](https://github.com/seu-omni-networking-link).
+
+Potencialize seu Inspector e a serialização no Unity com novos atributos, suporte nativo a dicionários observáveis/serializáveis, e várias correções de bugs para projetos multiplayer de alto desempenho.
 
 ---
 
-## ✨ **Key Features**
+## ✨ Principais Diferenciais
 
-- **Full Compatibility with Omni Networking**  
-  Seamless integration for projects using the Omni Networking framework.
-- **Bugfixes and Performance Improvements**  
-  Numerous stability fixes and optimizations over the original Tri-Inspector.
-- **New Attributes**  
-  Extended attribute set for enhanced UI and serialization workflows.
-- **Serializable ObservableDictionary**  
-  Native support for serializable and observable dictionaries, enabling key-value collections to be easily managed and monitored in both runtime and the Unity Editor.
-- **Enhanced Editor Experience**  
-  Draw custom property drawers, handle nested/complex types, and visualize networking-related data more easily.
-- **Backwards Compatible**  
-  Most Tri-Inspector features, attributes, and patterns are supported.
+- **Integração oficial com Omni Networking**  
+  Fluxo de trabalho otimizado para projetos multiplayer e networked.
+- **Correções de bugs & melhorias de estabilidade**  
+  Compatibilidade aprimorada para Unity 2022+ e .NET modernos.
+- **Novos atributos de Inspector**  
+  Atributos exclusivos para dados de rede e coleções observáveis.
+- **ObservableDictionary serializável**  
+  Suporte total a dicionários observáveis com serialização e eventos de mudança em runtime.
+- **Compatível com projetos antigos**  
+  Pode substituir Tri-Inspector em projetos existentes sem retrabalho.
 
 ---
+
+## 📚 Exemplos de Uso
+
+#### Observable Dictionary serializável
+
+```csharp
+using Omni.Inspector;
+using Omni.Collections;
+using UnityEngine;
+
+public class PlayerStats : MonoBehaviour
+{
+    public ObservableDictionary<string, int> Stats = new();
+}
