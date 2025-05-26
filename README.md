@@ -45,5 +45,42 @@ public class PlayerStats : MonoBehaviour
 
 ---
 
+## 🔧 Core Attributes
+
+**Display & Validation**
+- `[ShowInInspector]` - Show non-serialized properties
+- `[Required]` - Mark required fields  
+- `[ReadOnly]` - Make fields non-editable
+- `[ValidateInput]` - Custom validation
+- `[InfoBox]` - Display info messages
+
+**Styling**
+- `[Title]`, `[HideLabel]`, `[LabelText]`
+- `[GUIColor]`, `[Indent]`, `[PropertySpace]`
+- `[InlineEditor]`, `[InlineProperty]`
+
+**Conditionals**
+- `[ShowIf]`, `[HideIf]`, `[EnableIf]`, `[DisableIf]`
+- `[ShowInPlayMode]`, `[HideInEditMode]`
+
+**Collections**
+- `[ListDrawerSettings]` - Customize list display
+- `[TableList]` - Display collections as tables
+- `[Dropdown]` - Dropdown selection
+
+**Groups**
+- `[Group]` - Group properties together
+- `[DeclareBoxGroup]`, `[DeclareFoldoutGroup]`
+- `[DeclareTabGroup]`, `[DeclareHorizontalGroup]`
+
+**Buttons**
+- `[Button]` - Add method buttons
+- `[EnumToggleButtons]` - Toggle button enums
+
+---
+
+## 📄 License
+UnInspector is MIT licensed.
+
 **Credits:**  
 https://github.com/codewriter-packages/Tri-Inspector
