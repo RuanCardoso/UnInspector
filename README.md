@@ -40,3 +40,6 @@ public class PlayerStats : MonoBehaviour
 {
     public ObservableDictionary<string, int> Stats = new();
 }
+
+Credits:
+https://github.com/codewriter-packages/Tri-Inspector
