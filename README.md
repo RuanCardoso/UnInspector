@@ -1,5 +1,5 @@
 # UnInspector for Omni Networking
-A modern, extensible Inspector and serialization toolkit for Unity — **official fork of Tri-Inspector, maintained and evolved for the Omni Networking ecosystem**.
+A modern, extensible Inspector and serialization toolkit for Unity — **unofficial fork of Tri-Inspector, maintained and evolved for the Omni Networking ecosystem**.
 
 ---
 
