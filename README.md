@@ -45,6 +45,29 @@ public class PlayerStats : MonoBehaviour
 
 ---
 
+## 🎯 Auto Anchors Tool
+
+UnInspector includes a powerful Auto Anchors editor tool that automatically sets UI anchors based on current positions and sizes, making responsive UI design effortless.
+
+### Features
+- **Smart Anchor Calculation** - Automatically calculates anchor points based on current position relative to parent
+- **Scale Handling** - Properly handles scaled objects by converting scale to size
+- **Layout Group Detection** - Safely ignores objects controlled by Layout Groups
+- **Undo Support** - Full undo/redo support for all operations
+
+### Keyboard Shortcuts
+- **F1** - Auto anchor selected GameObjects
+- **F2** - Auto anchor all RectTransforms in scene  
+- **F3** - Match selected objects to parent size and auto anchor
+
+### Usage
+1. Select UI elements in the hierarchy
+2. Press **F1** to automatically set anchors based on current position
+3. Use **F3** to stretch elements to fill parent and set anchors
+4. Press **F2** to process all UI elements in the scene at once
+
+Perfect for converting absolute-positioned UI elements to responsive anchored layouts!
+
 ## 🔧 Core Attributes
 
 **Display & Validation**
