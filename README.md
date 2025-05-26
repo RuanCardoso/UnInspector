@@ -6,7 +6,7 @@ A modern, extensible Inspector and serialization toolkit for Unity — **officia
 
 ## 🚀 Overview
 
-**UnInspector** é um fork avançado do [Tri-Inspector](https://github.com/codewriter-packages/Tri-Inspector), atualizado especialmente para uso com o framework [Omni Networking]([https://github.com/seu-omni-networking-link](https://github.com/RuanCardoso/Omni-Networking-for-Unity)).
+**UnInspector** é um fork avançado do [Tri-Inspector](https://github.com/codewriter-packages/Tri-Inspector), atualizado especialmente para uso com o framework [Omni Networking]([https://github.com/RuanCardoso/Omni-Networking-for-Unity]).
 
 Potencialize seu Inspector e a serialização no Unity com novos atributos, suporte nativo a dicionários observáveis/serializáveis, e várias correções de bugs para projetos multiplayer de alto desempenho.
 
