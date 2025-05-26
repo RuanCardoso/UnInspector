@@ -40,5 +40,10 @@ public class PlayerStats : MonoBehaviour
 
 ---
 
+## 📝 Important Note
+**UnInspector works independently** - you can download and use it in any Unity project without requiring Omni Networking. While it's optimized for Omni Networking projects, all features work perfectly in standalone Unity projects.
+
+---
+
 **Credits:**  
 https://github.com/codewriter-packages/Tri-Inspector
